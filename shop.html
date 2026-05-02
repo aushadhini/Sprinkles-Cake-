@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Shop - SPRINKLES CAKE</title>
+<title>Shop</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-<nav>
-  <div class="nav-inner">
-    <div class="logo">SPRINKLES <span>CAKE</span></div>
+<nav class="navbar">
+  <div class="container nav-inner">
+    <h2>SPRINKLES CAKE</h2>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart 🛒</a>
     </div>
   </div>
 </nav>
@@ -23,26 +22,30 @@
 
   <div class="grid">
 
-    <div class="product">
+    <div class="card">
       <div class="img">🎂</div>
       <h3>Chocolate Cake</h3>
-      <p>Rs. 4,500</p>
+      <p>LKR 4,500</p>
+      <button onclick="addToCart('Chocolate Cake',4500)">Add to Cart</button>
     </div>
 
-    <div class="product">
+    <div class="card">
       <div class="img">🍓</div>
       <h3>Strawberry Cake</h3>
-      <p>Rs. 5,000</p>
+      <p>LKR 5,000</p>
+      <button onclick="addToCart('Strawberry Cake',5000)">Add to Cart</button>
     </div>
 
-    <div class="product">
+    <div class="card">
       <div class="img">🧁</div>
       <h3>Cupcake Box</h3>
-      <p>Rs. 2,500</p>
+      <p>LKR 2,500</p>
+      <button onclick="addToCart('Cupcake Box',2500)">Add to Cart</button>
     </div>
 
   </div>
 </section>
 
+<script src="js/cart.js"></script>
 </body>
 </html>
