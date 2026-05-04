@@ -1,51 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Shop</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop — Sprinkles Cake</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
 <nav class="navbar">
-  <div class="container nav-inner">
-    <h2>SPRINKLES CAKE</h2>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">SPRINKLES <span>CAKE</span></a>
     <div class="nav-links">
       <a href="index.html">Home</a>
-      <a href="cart.html">Cart 🛒</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="customize.html">Customize</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="nav-cart">Cart <span class="cart-count" style="display:none;background:var(--coral);color:white;border-radius:50px;padding:1px 7px;font-size:0.75rem;margin-left:4px"></span></a>
     </div>
   </div>
 </nav>
 
-<section class="section">
-  <h2>Our Cakes</h2>
+<div class="page-header">
+  <span class="section-label">Our Menu</span>
+  <h1>Our Cakes</h1>
+  <p>Every cake handcrafted fresh for your order</p>
+</div>
 
-  <div class="grid">
-
-    <div class="card">
-      <div class="img">🎂</div>
-      <h3>Chocolate Cake</h3>
-      <p>LKR 4,500</p>
-      <button onclick="addToCart('Chocolate Cake',4500)">Add to Cart</button>
+<section class="section" style="padding-top:0">
+  <div class="container">
+    <div class="shop-filters">
+      <button class="filter-btn active" data-filter="all">All Cakes</button>
+      <button class="filter-btn" data-filter="classic">Classic</button>
+      <button class="filter-btn" data-filter="specialty">Specialty</button>
+      <button class="filter-btn" data-filter="mini">Mini & Boxes</button>
     </div>
 
-    <div class="card">
-      <div class="img">🍓</div>
-      <h3>Strawberry Cake</h3>
-      <p>LKR 5,000</p>
-      <button onclick="addToCart('Strawberry Cake',5000)">Add to Cart</button>
-    </div>
+    <div class="grid">
 
-    <div class="card">
-      <div class="img">🧁</div>
-      <h3>Cupcake Box</h3>
-      <p>LKR 2,500</p>
-      <button onclick="addToCart('Cupcake Box',2500)">Add to Cart</button>
-    </div>
+      <div class="card product-card" data-category="classic">
+        <span class="card-emoji">🎂</span>
+        <h3>Chocolate Cake</h3>
+        <p class="card-desc">Rich dark chocolate sponge with velvety ganache and chocolate drizzle.</p>
+        <p class="card-price">LKR 4,500</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Chocolate Cake',4500,'🎂')">Add to Cart</button>
+        </div>
+      </div>
 
+      <div class="card product-card" data-category="classic">
+        <span class="card-emoji">🍓</span>
+        <h3>Strawberry Cake</h3>
+        <p class="card-desc">Light vanilla sponge layered with fresh strawberry cream and fruit.</p>
+        <p class="card-price">LKR 5,000</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Strawberry Cake',5000,'🍓')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="card product-card" data-category="mini">
+        <span class="card-emoji">🧁</span>
+        <h3>Cupcake Box</h3>
+        <p class="card-desc">A dozen assorted cupcakes with swirled buttercream frosting.</p>
+        <p class="card-price">LKR 2,500</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Cupcake Box',2500,'🧁')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="card product-card" data-category="specialty">
+        <span class="card-emoji">🍯</span>
+        <h3>Caramel Cake</h3>
+        <p class="card-desc">Salted caramel layers with toffee sauce and crunchy praline top.</p>
+        <p class="card-price">LKR 5,500</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Caramel Cake',5500,'🍯')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="card product-card" data-category="specialty">
+        <span class="card-emoji">🎂</span>
+        <h3>Red Velvet Cake</h3>
+        <p class="card-desc">Classic red velvet with cream cheese frosting and a gorgeous finish.</p>
+        <p class="card-price">LKR 5,200</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Red Velvet Cake',5200,'🎂')">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="card product-card" data-category="mini">
+        <span class="card-emoji">🍋</span>
+        <h3>Lemon Drizzle</h3>
+        <p class="card-desc">Zesty lemon sponge with a sweet glaze — light and refreshing.</p>
+        <p class="card-price">LKR 4,200</p>
+        <div class="card-actions">
+          <button class="btn btn-coral" onclick="addToCart('Lemon Drizzle',4200,'🍋')">Add to Cart</button>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">SPRINKLES <span>CAKE</span></a>
+        <p>Premium handmade cakes crafted with love for every sweet occasion in Sri Lanka.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="shop.html">Shop</a>
+        <a href="customize.html">Customize</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:sprinklescake@gmail.com">sprinklescake@gmail.com</a>
+        <a href="tel:+94771234567">+94 77 123 4567</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sprinkles Cake. All rights reserved.</span>
+      <span>Made with 🧡 in Sri Lanka</span>
+    </div>
+  </div>
+</footer>
+
 <script src="js/cart.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

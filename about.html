@@ -1,24 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>About - SPRINKLES CAKE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Sprinkles Cake</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<nav>
-  <div class="logo">SPRINKLES <span>CAKE</span></div>
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">SPRINKLES <span>CAKE</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="customize.html">Customize</a>
+      <a href="about.html" class="active">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html" class="nav-cart">Cart <span class="cart-count" style="display:none;background:var(--coral);color:white;border-radius:50px;padding:1px 7px;font-size:0.75rem;margin-left:4px"></span></a>
+    </div>
+  </div>
 </nav>
 
 <section class="section">
-  <h2>About Us</h2>
-
-  <p class="center">
-    SPRINKLES CAKE is a premium bakery in Sri Lanka creating delicious cakes 
-    for birthdays, weddings, and special occasions.
-  </p>
+  <div class="container">
+    <div class="about-hero">
+      <div class="about-visual">🎂</div>
+      <div class="about-text">
+        <span class="section-label">Our Story</span>
+        <h1>Baked with <em>passion</em>, served with love</h1>
+        <p>Sprinkles Cake was born from a simple belief — that every celebration deserves a cake that's as special as the moment itself. We started as a small home bakery in Colombo and have grown into one of Sri Lanka's most loved cake brands.</p>
+        <p>Every cake we create is handcrafted using fresh, quality ingredients. No shortcuts. No artificial flavors. Just pure, honest baking — the way it should be.</p>
+        <div class="about-stats">
+          <div class="stat-box">
+            <strong>500+</strong>
+            <span>Happy Customers</span>
+          </div>
+          <div class="stat-box">
+            <strong>50+</strong>
+            <span>Cake Flavors</span>
+          </div>
+          <div class="stat-box">
+            <strong>3+</strong>
+            <span>Years of Love</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<div class="divider"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">What We Stand For</span>
+      <h2 class="section-title">Our Values</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card">
+        <span class="value-icon">🌿</span>
+        <h3>Fresh Always</h3>
+        <p>Every cake is baked fresh to order. We never use pre-made bases or stale stock.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">✨</span>
+        <h3>Crafted with Care</h3>
+        <p>Each cake is decorated by hand with attention to every detail and sprinkle.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">💌</span>
+        <h3>Made with Love</h3>
+        <p>We believe food tastes better when it's made with genuine passion and heart.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div style="background:var(--chocolate);padding:60px 0;position:relative;z-index:1">
+  <div class="container" style="text-align:center">
+    <h2 style="font-family:'Playfair Display',serif;color:white;font-size:2rem;margin-bottom:12px">Ready to order?</h2>
+    <p style="color:rgba(255,255,255,0.6);margin-bottom:28px">Let us bake something beautiful for you.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap">
+      <a href="shop.html" class="btn btn-coral">Shop Now</a>
+      <a href="contact.html" class="btn btn-secondary" style="color:white;border-color:rgba(255,255,255,0.3)">Get in Touch</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">SPRINKLES <span>CAKE</span></a>
+        <p>Premium handmade cakes crafted with love for every sweet occasion in Sri Lanka.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <a href="shop.html">Shop</a>
+        <a href="customize.html">Customize</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:sprinklescake@gmail.com">sprinklescake@gmail.com</a>
+        <a href="tel:+94771234567">+94 77 123 4567</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sprinkles Cake. All rights reserved.</span>
+      <span>Made with 🧡 in Sri Lanka</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/cart.js"></script>
 </body>
 </html>
