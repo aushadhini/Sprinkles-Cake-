@@ -1,6 +1,10 @@
 # Sprinkles Cake
 🎂 Sprinkles Cake <br>
-A modern, responsive bakery website for Sprinkles Cake, designed to showcase delicious cakes, display pricing, and provide a smooth user experience for customers to browse and order cakes online.
+A fully responsive and visually engaging bakery website designed for Sprinkles Cake, crafted to deliver an intuitive and delightful user experience. The platform showcases a wide range of premium cakes with detailed descriptions, high-quality visuals, and transparent pricing in LKR.
+
+Built with a user-centered design approach, the website features seamless navigation, optimized performance, and mobile-first responsiveness to ensure accessibility across all devices. Key functionalities include an interactive product catalog, dynamic cart system, and a streamlined ordering process to enhance customer convenience.
+
+The design emphasizes aesthetic appeal through modern UI/UX principles, incorporating clean layouts, vibrant visuals, and smooth micro-interactions that reflect the brand’s identity. This project demonstrates a strong focus on usability, scalability, and real-world e-commerce functionality.
 
 🌟 Overview <br>
 Sprinkles Cake is a simple yet elegant bakery website built using HTML, CSS, and JavaScript.
