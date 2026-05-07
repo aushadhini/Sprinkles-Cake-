@@ -14,6 +14,8 @@ It is designed to help customers explore cake varieties, view prices in LKR, and
 - 📱 Fully responsive design (mobile + desktop)
 - 🎨 Clean UI with bakery-themed styling
 - 📄 Multi-page structure (Home, Menu, About, Contact)
+- 🎂 Live cake customizer with real-time order preview
+- 🔔 Toast notifications for cart interactions
 
 🛠️ Tech Stack
 - HTML5
