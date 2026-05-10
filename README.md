@@ -23,6 +23,12 @@ Built using HTML, CSS, and JavaScript, the project focuses on clean UI/UX design
 - 🔔 Toast notifications for cart interactions
 
 🛠️ Tech Stack
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)        
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB      
