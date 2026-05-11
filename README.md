@@ -22,7 +22,7 @@ Built using HTML, CSS, and JavaScript, the project focuses on clean UI/UX design
 - 🎂 Live cake customizer with real-time order preview
 - 🔔 Toast notifications for cart interactions
 
-🛠️ Tech Stack
+🛠️ Tech Stack <br>
 Frontend:
 - HTML
 - CSS
