@@ -5,8 +5,7 @@ Built with a user-centered design approach, the website features seamless naviga
 The design emphasizes aesthetic appeal through modern UI/UX principles, incorporating clean layouts, vibrant visuals, and smooth micro-interactions that reflect the brand’s identity. This project demonstrates a strong focus on usability, scalability, and real-world e-commerce functionality.
 
 <b>Overview :</b> <br>
-Sprinkles Cake is a modern and responsive bakery website designed to provide a smooth and enjoyable online experience for customers. The website allows users to explore different cakes, view prices in LKR, customize orders, and manage items through an interactive shopping cart.
-
+Sprinkles Cake is a modern and responsive bakery website designed to provide a smooth and enjoyable online experience for customers. The website allows users to explore different cakes, view prices in LKR, customize orders, and manage items through an interactive shopping cart. <br>
 Built using HTML, CSS, and JavaScript, the project focuses on clean UI/UX design, mobile-friendly responsiveness, and simple navigation. It includes multiple pages such as Home, Menu, About, and Contact, along with features like toast notifications and a live cake customizer for a more interactive experience.
 
 <b>Features :</b>
